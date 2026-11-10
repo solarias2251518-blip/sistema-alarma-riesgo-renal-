@@ -31,6 +31,7 @@ Construir un sistema de alarma temprana que estime el riesgo de enfermedad renal
 -  Código: [notebooks/Avance_CKD.ipynb](notebooks/Avance_CKD.ipynb)
 -  Video: <PEGAR_LINK_DEL_VIDEO>
 -  Repositorio: <PEGAR_LINK_DEL_REPOSITORIO>
+-  Diapositivas: [docs/Presentacion.pdf](docs/Presentacion.pdf)
 
 ---
 
@@ -63,7 +64,7 @@ El dataset se descarga automáticamente con `kagglehub`, no hay que subir ningú
 git clone <PEGAR_LINK_DEL_REPOSITORIO>
 cd ckd-repo
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+source venv/bin/activate        
 pip install -r requirements.txt
 jupyter notebook notebooks/Avance_CKD.ipynb
 ```
