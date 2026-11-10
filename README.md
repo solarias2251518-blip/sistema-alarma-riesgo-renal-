@@ -24,7 +24,7 @@ Construir un sistema de alarma temprana que estime el riesgo de enfermedad renal
 
 ## Modelos
 
-`GaussianNB` · `Árbol de decisión` · `Random Forest` · `SVM (SVC)` · `SVR` · `Grid Search` · `Submuestreo`
+`GaussianNB` · `Árbol de decisión` · `Random Forest` · `SVM (SVC)` · `SVR` · `Grid Search` 
 
 ## Enlaces
 
