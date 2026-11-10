@@ -28,9 +28,9 @@ Construir un sistema de alarma temprana que estime el riesgo de enfermedad renal
 
 ## Enlaces
 
-- 💻 Código: [notebooks/Avance_CKD.ipynb](notebooks/Avance_CKD.ipynb)
-- 🎥 Video: <PEGAR_LINK_DEL_VIDEO>
-- 📦 Repositorio: <PEGAR_LINK_DEL_REPOSITORIO>
+-  Código: [notebooks/Avance_CKD.ipynb](notebooks/Avance_CKD.ipynb)
+-  Video: <PEGAR_LINK_DEL_VIDEO>
+-  Repositorio: <PEGAR_LINK_DEL_REPOSITORIO>
 
 ---
 
@@ -42,14 +42,14 @@ ckd-repo/
 ├── requirements.txt
 ├── .gitignore
 ├── assets/
-│   └── banner.png          # imagen de 800 x 300
+│   └── banner.png          
 └── notebooks/
-    └── Avance_CKD.ipynb    # notebook completo (Avance 1, 2 y 3)
+    └── Avance_CKD.ipynb   
 ```
 
 ## Cómo abrir y ejecutar el proyecto
 
-### Opción A: Google Colab (la más fácil)
+### Opción A: Google Colab 
 
 1. Abre el notebook en GitHub y copia su URL.
 2. Entra a https://colab.research.google.com → **Archivo → Abrir cuaderno → pestaña GitHub** → pega la URL.
