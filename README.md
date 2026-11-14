@@ -8,7 +8,7 @@
 
 ## Autores
 
-Sol Valeria Arias Rojas, Ángel Javier Corzo Arias, Elías David Arrieta Olivero
+Sol Valeria Arias Rojas, Ángel Javier Corzo Arias, Elías David Arrieta Olivero 
 
 ## Objetivo
 
@@ -16,15 +16,32 @@ Construir un sistema de alarma temprana que estime el riesgo de enfermedad renal
 
 ## Dataset
 
-**Chronic Kidney Disease Risk Prediction Dataset**: 50.000 pacientes sintéticos y 40 variables (demográficas, corporales, clínicas, hábitos y antecedentes), con un score y una categoría de riesgo (Low, Moderate, High).
+**Chronic Kidney Disease Risk Prediction Dataset** (Kaggle): 50.000 pacientes sintéticos y 40 variables demográficas, clínicas, de hábitos y antecedentes, con un puntaje de riesgo (`CKD_Risk_Score`, de 9 a 100) y una categoría de riesgo (`CKD_Risk`: Low, Moderate, High).
 
 - Descarga: https://www.kaggle.com/datasets/mobeenfatimah/chronic-kidney-disease-risk-prediction-dataset
+De las 40 variables, en el análisis exploratorio se seleccionaron las 10 más relacionadas con el riesgo:
+ 
+| Variable | Descripción |
+| --- | --- |
+| `eGFR` | Tasa de filtración glomerular estimada [mL/min/1,73 m²] |
+| `Serum_Creatinine` | Creatinina sérica [mg/dL] |
+| `Age` | Edad del paciente [años] |
+| `Blood_Urea` | Urea en sangre [mg/dL] |
+| `Blood_Pressure_Systolic` | Presión arterial sistólica [mm Hg] |
+| `Albumin` | Albúmina sérica [g/dL] |
+| `Hypertension` | Hipertensión [Yes / No] |
+| `Diabetes` | Diabetes [Yes / No] |
+| `Family_History_CKD` | Antecedentes familiares de enfermedad renal crónica [Yes / No] |
+| `Smoking_Status` | Tabaquismo [Never / Former / Current] |
+| **`CKD_Risk`** | Variable objetivo de clasificación [Low / Moderate / High] |
+| **`CKD_Risk_Score`** | Variable objetivo de regresión [9 – 100] |
+
 
 > Los pacientes son sintéticos: los resultados no son hallazgos médicos.
 
 ## Modelos
 
-`GaussianNB` · `Árbol de decisión` · `Random Forest` · `SVM (SVC)` · `SVR` · `Grid Search` 
+**Supervisados:** Gaussian Naive Bayes (Classifier) · Decision Tree (Classifier, Regressor) · Random Forest (Classifier, Regressor) · Support Vector Machine (Classifier, Regressor)
 
 ## Enlaces
 
