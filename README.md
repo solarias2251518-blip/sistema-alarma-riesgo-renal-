@@ -42,7 +42,12 @@ De las 40 variables, en el análisis exploratorio se seleccionaron las 10 más r
 
 ## Modelos
 
-**Supervisados:** Gaussian Naive Bayes (Classifier) · Decision Tree (Classifier, Regressor) · Random Forest (Classifier, Regressor) · Support Vector Machine (Classifier, Regressor)
+### Supervisados
+
+- Gaussian Naive Bayes (Classifier)
+- Decision Tree (Classifier, Regressor)
+- Random Forest (Classifier, Regressor)
+- Support Vector Machine (Classifier, Regressor)
 
 ## Enlaces
 
