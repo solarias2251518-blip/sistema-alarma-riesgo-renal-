@@ -1,8 +1,8 @@
 <div align="center">
 
-![Banner](assets/banner.png)
+# Sistema de alarma temprana de riesgo renal
 
-# Sistema de alarma temprana y segmentación de riesgo renal
+![Banner](assets/banner.png)
 
 </div>
 
@@ -19,8 +19,9 @@ Construir un sistema de alarma temprana que estime el riesgo de enfermedad renal
 **Chronic Kidney Disease Risk Prediction Dataset** (Kaggle): 50.000 pacientes sintéticos y 40 variables demográficas, clínicas, de hábitos y antecedentes, con un puntaje de riesgo (`CKD_Risk_Score`, de 9 a 100) y una categoría de riesgo (`CKD_Risk`: Low, Moderate, High).
 
 - Descarga: https://www.kaggle.com/datasets/mobeenfatimah/chronic-kidney-disease-risk-prediction-dataset
+
 De las 40 variables, en el análisis exploratorio se seleccionaron las 10 más relacionadas con el riesgo:
- 
+
 | Variable | Descripción |
 | --- | --- |
 | `eGFR` | Tasa de filtración glomerular estimada [mL/min/1,73 m²] |
@@ -47,15 +48,14 @@ De las 40 variables, en el análisis exploratorio se seleccionaron las 10 más r
 
 -  Código: [notebooks/Avance_CKD.ipynb](notebooks/Avance_CKD.ipynb)
 -  Video: <PEGAR_LINK_DEL_VIDEO>
--  Repositorio: <PEGAR_LINK_DEL_REPOSITORIO>
--  Diapositivas: [docs/Presentacion.pdf](docs/Presentacion.pdf)
+-  Repositorio: https://github.com/solarias2251518-blip/sistema-alarma-riesgo-renal-
 
 ---
 
 ## Estructura del repositorio
 
 ```
-ckd-repo/
+sistema-alarma-riesgo-renal-/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
@@ -78,10 +78,10 @@ El dataset se descarga automáticamente con `kagglehub`, no hay que subir ningú
 ### Opción B: en tu computador
 
 ```bash
-git clone <PEGAR_LINK_DEL_REPOSITORIO>
-cd ckd-repo
+git clone https://github.com/solarias2251518-blip/sistema-alarma-riesgo-renal-.git
+cd sistema-alarma-riesgo-renal-
 python -m venv venv
-source venv/bin/activate        
+source venv/bin/activate        # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 jupyter notebook notebooks/Avance_CKD.ipynb
 ```
