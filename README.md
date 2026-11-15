@@ -52,7 +52,7 @@ De las 40 variables, en el análisis exploratorio se seleccionaron las 10 más r
 ## Enlaces
 
 -  Código: [notebooks/Avance_CKD.ipynb](notebooks/Avance_CKD.ipynb)
--  Video: [<PEGAR_LINK_DEL_VIDEO>](https://youtu.be/NdbykuL9vrM)
+-  Video: [<Sistema de alarma temprana de riesgo renal>](https://youtu.be/NdbykuL9vrM)
 -  Repositorio: https://github.com/solarias2251518-blip/sistema-alarma-riesgo-renal-
 
 ---
