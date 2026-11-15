@@ -54,7 +54,7 @@ De las 40 variables, en el análisis exploratorio se seleccionaron las 10 más r
 -  Código: [notebooks/Avance_CKD.ipynb](notebooks/Avance_CKD.ipynb)
 -  Video: [Sistema de alarma temprana de riesgo renal](https://youtu.be/NdbykuL9vrM)
 -  Repositorio: https://github.com/solarias2251518-blip/sistema-alarma-riesgo-renal-
-
+-  Presentacion Completa aquí:[📄 Ver Presentacion](./Presentation.pdf)
 ---
 
 ## Estructura del repositorio
